@@ -11,11 +11,11 @@ export default function ClientsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10 sm:mb-16 text-center">
         {/* Section Label */}
         <div className="inline-flex items-center gap-3 mb-3 sm:mb-4">
-          <div className="w-8 h-[1px] bg-neutral-600" />
+          <div className="w-8 h-px bg-neutral-600" />
           <span className="font-tech text-xs tracking-[0.25em] text-neutral-400 uppercase font-semibold">
             07 / CLIENT ROSTER
           </span>
-          <div className="w-8 h-[1px] bg-neutral-600" />
+          <div className="w-8 h-px bg-neutral-600" />
         </div>
 
         {/* Heading */}

@@ -78,7 +78,7 @@ export default function ServiceExplanationSection({ onLearnMore }: ServiceExplan
         {/* Section Label */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8 sm:mb-12">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-[1px] bg-neutral-500" />
+            <div className="w-8 h-px bg-neutral-500" />
             <span className="font-tech text-xs tracking-[0.25em] text-neutral-400 uppercase font-semibold">
               DYNAMIC PILLAR DEEP DIVE
             </span>

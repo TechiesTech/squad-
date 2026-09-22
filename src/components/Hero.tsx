@@ -121,11 +121,11 @@ export default function Hero({ onContactClick }: HeroProps) {
 
         {/* Cinematic Vignette & Gradient Overlays */}
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-black/80" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-transparent via-black/40 to-black" />
+        <div className="absolute inset-0 radial-vignette-dark from-transparent via-black/40 to-black" />
 
         {/* Subtle Corporate Grid Line Matrix */}
         <div
-          className="absolute inset-0 opacity-[0.04] pointer-events-none"
+          className="absolute inset-0 opacity-faint pointer-events-none"
           style={{
             backgroundImage: `linear-gradient(to right, #ffffff 1px, transparent 1px), linear-gradient(to bottom, #ffffff 1px, transparent 1px)`,
             backgroundSize: '80px 80px',

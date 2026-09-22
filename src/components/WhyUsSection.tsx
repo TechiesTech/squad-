@@ -19,7 +19,7 @@ export default function WhyUsSection() {
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
         {/* Section Header */}
         <div className="flex items-center gap-3 mb-4">
-          <div className="w-8 h-[1px] bg-black" />
+          <div className="w-8 h-px bg-black" />
           <span className="font-tech text-xs tracking-[0.25em] text-neutral-500 uppercase font-semibold">
             06 / STRATEGIC ADVANTAGE
           </span>

@@ -25,7 +25,7 @@ export default function ServicesSection({ onSelectService }: ServicesSectionProp
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 sm:mb-16 gap-6 sm:gap-8">
           <div>
             <div className="flex items-center gap-3 mb-3 sm:mb-4">
-              <div className="w-8 h-[1px] bg-black" />
+              <div className="w-8 h-px bg-black" />
               <span className="font-tech text-xs tracking-[0.25em] text-neutral-500 uppercase font-semibold">
                 04 / CAPABILITY MATRIX
               </span>

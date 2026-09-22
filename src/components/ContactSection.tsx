@@ -40,7 +40,7 @@ const ContactSection = forwardRef<HTMLElement, ContactSectionProps>(({ preselect
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Label */}
         <div className="flex items-center gap-3 mb-4 sm:mb-6">
-          <div className="w-8 h-[1px] bg-neutral-600" />
+          <div className="w-8 h-px bg-neutral-600" />
           <span className="font-tech text-xs tracking-[0.25em] text-neutral-400 uppercase font-semibold">
             10 / GET IN TOUCH
           </span>

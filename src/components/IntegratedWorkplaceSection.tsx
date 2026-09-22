@@ -35,16 +35,16 @@ export default function IntegratedWorkplaceSection() {
       className="relative w-full bg-black text-white py-32 sm:py-40 overflow-hidden border-t border-neutral-900 select-none"
     >
       {/* Background Ambience */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(255,255,255,0.06)_0,_transparent_70%)] pointer-events-none" />
+      <div className="absolute inset-0 radial-glow-center pointer-events-none" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 text-center">
         {/* Section Label */}
         <div className="inline-flex items-center gap-3 mb-6">
-          <div className="w-8 h-[1px] bg-neutral-600" />
+          <div className="w-8 h-px bg-neutral-600" />
           <span className="font-tech text-xs tracking-[0.3em] text-neutral-400 uppercase font-semibold">
             05 / INTEGRATED WORKPLACE ECOSYSTEM
           </span>
-          <div className="w-8 h-[1px] bg-neutral-600" />
+          <div className="w-8 h-px bg-neutral-600" />
         </div>
 
         {/* Big Heading */}

@@ -71,3 +71,21 @@
 .pause-marquee:hover {
   animation-play-state: paused;
 }
+
+/* Custom radial gradients */
+.radial-glow-center {
+  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.06) 0, transparent 70%);
+}
+
+.radial-vignette-dark {
+  background: radial-gradient(ellipse at center, var(--tw-gradient-stops)) from-transparent via-black/40 to-black;
+}
+
+/* Custom opacity values */
+.opacity-subtle {
+  opacity: 0.03;
+}
+
+.opacity-faint {
+  opacity: 0.04;
+}

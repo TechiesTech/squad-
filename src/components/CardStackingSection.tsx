@@ -117,11 +117,11 @@ export default function CardStackingSection() {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 mb-20 text-center">
         {/* Section Label */}
         <div className="inline-flex items-center gap-3 mb-4">
-          <div className="w-8 h-[1px] bg-neutral-600" />
+          <div className="w-8 h-px bg-neutral-600" />
           <span className="font-tech text-xs tracking-[0.25em] text-neutral-400 uppercase font-semibold">
             08 / OPERATIONAL DEPTH
           </span>
-          <div className="w-8 h-[1px] bg-neutral-600" />
+          <div className="w-8 h-px bg-neutral-600" />
         </div>
 
         {/* Section Heading */}

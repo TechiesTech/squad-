@@ -46,7 +46,7 @@ export default function AboutSection() {
     >
       {/* Background architectural grid */}
       <div
-        className="absolute inset-0 opacity-[0.03] pointer-events-none"
+        className="absolute inset-0 opacity-subtle pointer-events-none"
         style={{
           backgroundImage: `linear-gradient(to right, #ffffff 1px, transparent 1px), linear-gradient(to bottom, #ffffff 1px, transparent 1px)`,
           backgroundSize: '90px 90px',
@@ -56,7 +56,7 @@ export default function AboutSection() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Label */}
         <div className="flex items-center gap-3 mb-8 sm:mb-12">
-          <div className="w-8 h-[1px] bg-neutral-600" />
+          <div className="w-8 h-px bg-neutral-600" />
           <span className="font-tech text-xs tracking-[0.25em] text-neutral-400 uppercase font-semibold">
             03 / ABOUT THE ENTERPRISE
           </span>
