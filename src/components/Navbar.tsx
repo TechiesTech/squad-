@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X, ArrowUpRight, ShieldCheck } from 'lucide-react';
+import logo from '../assets/logo.png';
 
 interface NavbarProps {
   onContactClick: () => void;
@@ -57,17 +58,17 @@ export default function Navbar({ onContactClick }: NavbarProps) {
               e.preventDefault();
               scrollToSection('#hero');
             }}
-            className="group flex items-center gap-2.5 sm:gap-3"
+            className="group flex items-center gap-0 sm:gap-0.5 -ml-1"
             data-cursor-text="HOME"
           >
-            <div className="w-8 h-8 sm:w-9 sm:h-9 border border-neutral-400/40 bg-neutral-950 flex items-center justify-center transition-all duration-300 group-hover:border-white group-hover:bg-neutral-900 flex-shrink-0">
-              <span className="font-display font-black text-xs sm:text-sm text-neutral-100 tracking-tighter">
-                2.S
-              </span>
-            </div>
-            <div className="flex flex-col text-left">
+            <img
+              src={logo}
+              alt="Squad Services Logo"
+              className="w-12 h-12 sm:w-14 sm:h-14 object-contain transition-all duration-300 group-hover:scale-105 -my-1"
+            />
+            <div className="flex flex-col text-left -my-1">
               <span className="font-display font-bold text-xs sm:text-sm md:text-base tracking-[0.12em] sm:tracking-[0.15em] text-white group-hover:text-neutral-200 transition-colors uppercase truncate">
-                2. SQUAD SERVICES
+                SQUAD SERVICES
               </span>
               <span className="font-tech text-[8px] sm:text-[9px] text-neutral-400 tracking-[0.2em] sm:tracking-[0.25em] uppercase font-semibold">
                 PRIVATE LIMITED
@@ -129,7 +130,7 @@ export default function Navbar({ onContactClick }: NavbarProps) {
             <div className="flex flex-col gap-6">
               <div className="flex items-center gap-2 pb-4 border-b border-neutral-800 text-neutral-400 font-tech text-xs tracking-widest">
                 <ShieldCheck className="w-4 h-4 text-neutral-300" />
-                <span className="truncate">2. SQUAD SERVICES PRIVATE LIMITED</span>
+                <span className="truncate">SQUAD SERVICES PRIVATE LIMITED</span>
               </div>
               <nav className="flex flex-col gap-3 sm:gap-4">
                 {navLinks.map((link, idx) => (

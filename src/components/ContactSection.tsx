@@ -104,7 +104,7 @@ const ContactSection = forwardRef<HTMLElement, ContactSectionProps>(({ preselect
                     REGISTERED OFFICE
                   </span>
                   <p className="font-sans text-sm text-neutral-300 mt-0.5">
-                    2. Squad Services Private Limited, Executive Business Tower, Corporate Hub, India
+                    Squad Services Private Limited, Executive Business Tower, Corporate Hub, India
                   </p>
                 </div>
               </div>

@@ -27,7 +27,7 @@ export default function WhyUsSection() {
 
         <div className="flex flex-col lg:flex-row lg:items-end justify-between mb-16 gap-6">
           <h2 className="font-display font-extrabold text-4xl sm:text-6xl md:text-7xl tracking-[-0.03em] uppercase text-black">
-            WHY 2. SQUAD?
+            WHY SQUAD?
           </h2>
           <p className="font-sans text-base sm:text-lg text-neutral-600 max-w-lg font-light leading-relaxed">
             The standard of execution that distinguishes our operations across India's premier commercial towers, campuses, and industrial sites.

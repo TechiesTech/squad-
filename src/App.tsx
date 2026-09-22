@@ -74,7 +74,7 @@ export default function App() {
         {/* 05: Integrated Workplace (Floating Cursor-Reactive Nodes) */}
         <IntegratedWorkplaceSection />
 
-        {/* 06: Why 2. Squad (5 Strategic Blocks) */}
+        {/* 06: Why Squad (5 Strategic Blocks) */}
         <WhyUsSection />
 
         {/* 07: Clients (Dual Infinite Marquee with Placeholder Logos) */}

@@ -107,7 +107,7 @@ export default function AboutSection() {
               className="font-sans text-base sm:text-xl text-neutral-300 font-light leading-relaxed mb-10 sm:mb-14"
             >
               <p>
-                At <strong className="font-semibold text-white">2. SQUAD SERVICES PRIVATE LIMITED</strong>,
+                At <strong className="font-semibold text-white">SQUAD SERVICES PRIVATE LIMITED</strong>,
                 we believe modern organizations require more than ad-hoc vendor arrangements. They need an integrated, accountable operational partner who can take ownership of physical security, facility cleanliness, building MEP systems, and floor-level workplace support with zero friction.
               </p>
               <p className="mt-4 text-neutral-400 text-sm sm:text-base">

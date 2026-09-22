@@ -15,11 +15,11 @@ export default function Footer() {
             <div>
               <div className="flex items-center gap-3">
                 <div className="w-9 h-9 border border-neutral-500 bg-neutral-950 flex items-center justify-center">
-                  <span className="font-display font-black text-sm text-white">2.S</span>
+                  <span className="font-display font-black text-sm text-white">SS</span>
                 </div>
                 <div className="flex flex-col">
                   <span className="font-display font-bold text-lg tracking-[0.15em] uppercase text-white">
-                    2. SQUAD SERVICES
+                    SQUAD SERVICES
                   </span>
                   <span className="font-tech text-[10px] text-neutral-400 tracking-[0.25em] uppercase font-semibold">
                     PRIVATE LIMITED
@@ -143,7 +143,7 @@ export default function Footer() {
         {/* Bottom Copyright & Legal */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-tech text-neutral-400 text-center sm:text-left">
           <div>
-            &copy; {new Date().getFullYear()} 2. SQUAD SERVICES PRIVATE LIMITED. ALL RIGHTS RESERVED.
+            &copy; {new Date().getFullYear()} SQUAD SERVICES PRIVATE LIMITED. ALL RIGHTS RESERVED.
           </div>
           <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6">
             <a href="#hero" className="hover:text-white transition-colors">

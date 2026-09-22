@@ -132,7 +132,7 @@ export default function ServiceExplanationSection({ onLearnMore }: ServiceExplan
               <div className="absolute bottom-4 sm:bottom-6 left-4 sm:left-6 right-4 sm:right-6 flex items-center justify-between text-white">
                 <div className="flex items-center gap-2 font-tech text-xs tracking-widest uppercase">
                   <ShieldCheck className="w-4 h-4 text-neutral-300 flex-shrink-0" />
-                  <span className="truncate">2. SQUAD VERIFIED</span>
+                  <span className="truncate">SQUAD VERIFIED</span>
                 </div>
                 <span className="font-tech text-xs tracking-widest text-neutral-400 uppercase flex-shrink-0">
                   ACTIVE DEPLOYMENT

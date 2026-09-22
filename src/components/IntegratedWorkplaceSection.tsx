@@ -84,7 +84,7 @@ export default function IntegratedWorkplaceSection() {
                   INTEGRATED COMMAND
                 </span>
                 <span className="font-display font-extrabold text-sm sm:text-base tracking-wider uppercase text-white mt-1">
-                  2. SQUAD WORKPLACE HUB
+                  SQUAD WORKPLACE HUB
                 </span>
               </div>
             </div>

@@ -58,7 +58,7 @@ export default function CareersSection() {
             >
               <img
                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80"
-                alt="2. Squad Services Team at Work"
+                alt="Squad Services Team at Work"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
                 loading="lazy"
@@ -123,7 +123,7 @@ export default function CareersSection() {
                     <CheckCircle2 className="w-12 h-12 text-black mx-auto mb-4" />
                     <h4 className="font-display font-bold text-2xl uppercase">APPLICATION RECORDED</h4>
                     <p className="font-sans text-neutral-600 max-w-md mx-auto mt-2">
-                      Thank you for your interest in 2. Squad Services. Our recruitment team will review your profile and contact you within 48 hours.
+                      Thank you for your interest in Squad Services. Our recruitment team will review your profile and contact you within 48 hours.
                     </p>
                     <button
                       onClick={() => setAppliedSuccess(false)}

@@ -66,7 +66,7 @@ export default function IntroductionSection({ onLearnMoreClick }: IntroductionSe
               className="text-sm sm:text-base md:text-lg text-neutral-800 font-normal leading-relaxed max-w-xl"
             >
               <strong className="font-semibold text-black">
-                2. Squad Services Private Limited
+                Squad Services Private Limited
               </strong>{' '}
               delivers integrated security, facility management and workforce solutions that help
               organizations create safer, smarter and more efficient workplaces.

@@ -92,7 +92,7 @@ function StackingCardItem({
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none" />
             <div className="absolute bottom-6 right-6 flex items-center gap-2 text-white font-tech text-xs tracking-wider">
               <ShieldCheck className="w-4 h-4 text-neutral-400" />
-              <span>2. SQUAD PROTOCOL</span>
+              <span>SQUAD PROTOCOL</span>
             </div>
           </div>
         </div>

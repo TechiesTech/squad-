@@ -9,7 +9,7 @@ interface HeroProps {
 
 export default function Hero({ onContactClick }: HeroProps) {
   // Sequence phase:
-  // 0 = Initial company name reveal ("2. SQUAD SERVICES")
+  // 0 = Initial company name reveal ("SQUAD SERVICES")
   // 1 = Private limited badge reveal
   // 2 = Rotating flip phrases ("SECURITY", "FACILITY MANAGEMENT", "WORKPLACE SERVICES", "PEOPLE. SECURITY. EXCELLENCE.")
   // 3 = Full interactive hero slides view
@@ -159,7 +159,7 @@ export default function Hero({ onContactClick }: HeroProps) {
           <AnimatePresence mode="wait">
             {sequencePhase < 3 ? (
               /* ============================================================ */
-              /* INITIAL SEQUENCE: 2. SQUAD SERVICES -> PVT LTD -> FLIP PHRASES */
+              /* INITIAL SEQUENCE: SQUAD SERVICES -> PVT LTD -> FLIP PHRASES */
               /* ============================================================ */
               <motion.div
                 key="intro-sequence"
@@ -177,7 +177,7 @@ export default function Hero({ onContactClick }: HeroProps) {
                   className="relative"
                 >
                   <h1 className="font-display font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl tracking-tight text-white leading-tight">
-                    2. SQUAD SERVICES
+                    SQUAD SERVICES
                   </h1>
                 </motion.div>
 
