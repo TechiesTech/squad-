@@ -13,9 +13,9 @@ export default function Footer() {
           {/* Brand & Corporate Overview */}
           <div className="lg:col-span-5 flex flex-col justify-between">
             <div>
-              <div className="flex items-center gap-3">
-                <div className="w-9 h-9 border border-neutral-500 bg-neutral-950 flex items-center justify-center">
-                  <span className="font-display font-black text-sm text-white">SS</span>
+              <div className="flex items-center gap-2">
+                <div className="w-9 h-9 border-2 border-neutral-600 bg-neutral-950 flex items-center justify-center">
+                  <span className="font-display font-black text-sm text-white tracking-tighter">SS</span>
                 </div>
                 <div className="flex flex-col">
                   <span className="font-display font-bold text-lg tracking-[0.15em] uppercase text-white">

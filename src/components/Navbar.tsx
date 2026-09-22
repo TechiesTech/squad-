@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X, ArrowUpRight, ShieldCheck } from 'lucide-react';
-import logo from '../assets/logo.png';
 
 interface NavbarProps {
   onContactClick: () => void;
@@ -61,11 +60,9 @@ export default function Navbar({ onContactClick }: NavbarProps) {
             className="group flex items-center gap-0 sm:gap-0.5 -ml-1"
             data-cursor-text="HOME"
           >
-            <img
-              src={logo}
-              alt="Squad Services Logo"
-              className="w-12 h-12 sm:w-14 sm:h-14 object-contain transition-all duration-300 group-hover:scale-105 -my-1"
-            />
+            <div className="w-8 h-8 sm:w-10 sm:h-10 border-2 border-neutral-600 bg-neutral-950 flex items-center justify-center transition-all duration-300 group-hover:scale-105 group-hover:border-white -my-1">
+              <span className="font-display font-black text-xs sm:text-sm text-white tracking-tighter">SS</span>
+            </div>
             <div className="flex flex-col text-left -my-1">
               <span className="font-display font-bold text-xs sm:text-sm md:text-base tracking-[0.12em] sm:tracking-[0.15em] text-white group-hover:text-neutral-200 transition-colors uppercase truncate">
                 SQUAD SERVICES
